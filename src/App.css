@@ -31,3 +31,11 @@
     transform: rotate(360deg);
   }
 }
+#main-container{
+  height: 100vh;
+  background: #6fb3f4;
+}
+#main-container-signup{
+  height: 100vh;
+  background: #d265f0;
+}
