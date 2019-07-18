@@ -51,6 +51,7 @@ export default class Signup extends Component {
     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
   </div>
   
+  
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
   </div>
@@ -60,3 +61,5 @@ export default class Signup extends Component {
     )
   }
 }
+
+
