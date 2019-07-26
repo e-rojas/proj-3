@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import food from './images/food.jpg';
+//import food from './images/food.jpg';
 import moment from 'moment';
 export default class Place extends Component {
     //data
@@ -21,10 +21,12 @@ export default class Place extends Component {
               <div className="card-body">
                 <div className="wrapper">
                   <div className="row">
-                    <div className="col-3 p-0">
-                      <div className="imageWrapper "> <img src={food} alt="..." className="img-thumbnail"></img> </div>
+                    <div className="col-4 p-0">
+                      <div className="imageWrapper "> 
+                        {this.state.place.file ? <img src={this.state.place.file} alt="..." className="img-thumbnail2"></img> :'' }
+                        </div>
                     </div>
-                    <div className="col-9 d-flex flex-column"> <span><b>{this.state.place.name} </b></span>
+                    <div className="col-8 d-flex flex-column"> <span><b>{this.state.place.name} </b></span>
                      <span><b><i className="far fa-address-book"></i> </b>{this.state.place.address} </span>
                       <div>
                         <span><b><i className="far fa-thumbs-up"></i> </b>{this.state.place.likes} </span>

@@ -19,6 +19,9 @@
     .img-thumbnail{
 		width: 50px!important;
 	}
+	.img-thumbnail2{
+		width: 120px!important;
+	}
 	#logo{
 		width: 8rem;
 	}
@@ -26,5 +29,13 @@
 		background-color: white;
 	}
 	.card{
-		width: 29rem;
+		width: 26rem;
 	}
+	
+	#main-containerCreate {
+		height: 100vh;
+		background-color: rgb(163, 222, 240);
+		
+	}
+	
+	
